@@ -42,6 +42,7 @@ Node *findMiddle(Node *head) {
     //TC = O(N + N/2);
     //SC = O(1);
 
+    //Efficient
     if(head == NULL || head->next == NULL) return head;
     
     Node* fast = head;
