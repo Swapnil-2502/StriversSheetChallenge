@@ -41,4 +41,6 @@ int jobScheduling(vector<vector<int>> &jobs)
     }
 
     return profit;
+    //TC = O(N) + O(N*max(deadline));
+    //SC = O(N);
 }
