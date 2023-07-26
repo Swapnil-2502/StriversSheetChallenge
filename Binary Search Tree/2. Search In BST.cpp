@@ -25,6 +25,6 @@ bool searchInBST(BinaryTreeNode<int> *root, int x) {
     if(root->data > x) return searchInBST(root->left,x);
     if(root->data < x) return searchInBST(root->right,x);
 
-    //TC = O(N);
+    //TC = O(log2 N); its log base 2
     //SC = O(H); recursion stack space
 }
