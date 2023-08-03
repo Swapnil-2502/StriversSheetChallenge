@@ -35,3 +35,5 @@ vector<int> bfsTraversal(int n, vector<vector<int>> &adj) {
 
     return result;
 }
+//Tc = O(N);
+//SC = O(N);
